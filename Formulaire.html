@@ -1,0 +1,102 @@
+<!<!DOCTYPE html>
+<html1 lang="en">
+  <head>
+    <title>Formulaire.html<</title>
+    <meta charset="utf-8">
+  </head>
+<body>
+  <h1>Votre Avis Nous Intéresse</h1>
+  <table>
+    <TR>
+      <TD>
+
+            <form>
+             <fieldset>
+               <legend>Informations Personnelles
+               </legend>
+                <ol>
+                 <li>
+                         <label for="nom">Nom</label>
+                         <input id="nom" type="text"/>
+                 </li>
+                 <li>
+                         <label for="Date">Date de naissance</label>
+                         <input id="Date" type="date"/>
+                 </li>
+                 <li>
+                         <label for="email">email</label>
+                         <input required type="email" id="email" name="email" value="http://monsite.com" />
+                 </li>
+                 <li>
+                         <label for="Emploi">Emploi</label>
+                         <select id="Emploi">
+                         <option>Etudiant</option>
+                         <option>Administrateur Réseau</option>
+                         <option>Dévlopeur Web</option>
+                         <option>Web designer</option>
+                         <option>DevOps</option>
+                         </select>
+                 </li>
+                 <li>
+                         <label for="Salaire">Approx. Salaire annuel</label>
+                         <input min="1000" max="10000" step="1000" required type="number" name="number" />
+                 </li>
+               </ol>
+           </fieldset>
+        </form>
+        </TD>
+        <TD>
+        <form>
+           <fieldset>
+               <legend>Informations de Contact
+               </legend>
+              <ol>
+
+                <li>
+                  <label for="Adr">Adresse ligne 1</label>
+                  <input id="Adr" type="text"/>
+                </li>
+
+                <li>
+                    <label for="Adr">Adresse ligne 2</label>
+                    <input id="Adr" type="text"/>
+                </li>
+                <li>
+                    <label for="Pay">Pay</label>
+                    <select id="Pay">
+                    <option>Algerie</option>
+                    <option>Tunisie</option>
+                    <option>Maroco</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="Tel">Tel</label>
+                    <input required type="tel" id="Tel" name="Tel" value="eg: +213 67...."/>
+                </li>
+
+                <li>
+                    <label for="Couriel">Couriel</label>
+                    <input id="Couriel" type="text"/>
+                </li>
+
+
+              </ol>
+           </fieldset>
+          </form>
+       </TD>
+       </TR>
+</table>
+<h1>Préférences</h1>
+Choisir une couleur
+<input type="color" id="head" name="head"value="#e66465">
+<label for="head"> </label>
+<br>
+Sur une échelle de 1 à 10, quel est votre degré d'enthousiasme pour HTML5?
+<label for="range"> </label>
+<input min="0" max="10" step="1"
+required type="range" id="range" name="range"/>
+<br>
+<input type="submit" value="Envoyer">
+</body>
+
+</html1>
